@@ -1,0 +1,25 @@
+== Pacchetti usati durante i laboratori ==
+propagate
+clusterGeneration
+psych
+mvtnorm
+hemp
+lavaan
+corrplot
+qgraph
+dendextend
+semPaths
+semTools
+lmer
+
+
+== Installare i pacchetti ==
+All'interno dell'ambiente R, utilizzare il comando install.packages(nome_pacchetto) dove nome_pacchetto è la variabile carattere che contiene il nome del pacchetto. Ad esempio, install.packages("propagate") installa nella libreria di R il pacchetto propagate.
+
+Per installare 'hemp' occorre usare la funzione install_github() della libreria devtools (da installare se non la si possiede):
+library(devtools)
+install_github("cddesja/hemp")
+
+
+
+
